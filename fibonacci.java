@@ -11,10 +11,18 @@ public class fibonacci{
         for(i=2;i<count;i++)
         {
             c = a+b;
-            System.out.print(" "+c);
+            
 
             a=b;
             b=c;
+
+            if(i==19)
+            break;
+            else{
+                    System.out.print(" "+c);
+            }
         }
+
+        
     }
 }
